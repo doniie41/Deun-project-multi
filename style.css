@@ -48,6 +48,26 @@ body{
           align-items: center;
           text-align: center;
         }
+        /* 구경하러 가기 버튼 */
+        .start-btn {
+        margin-top: 20px;
+        display: inline-block;
+
+        padding: 12px 24px;
+        background-color: grey;
+        color: white;
+
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 999px;
+
+        transition: 0.2s;
+       }
+
+       .start-btn:hover {
+        background-color: #555;
+        transform: translateY(-2px);
+       }
 
         /* 2 페이지 */
         .projects {
